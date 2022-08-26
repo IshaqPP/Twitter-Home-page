@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.main{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 720px 1fr;
+    width: 100%;
+    
+}
+.left{
+    background-color: aquamarine;
+    height: 700px;
+}
+.left img{
+    height: 700px;
+}
+.right{
+
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+   
+}
+.logo{
+    padding: 30px;
+    height: 50px;
+    
+}
+.text1{
+    margin-top: 90px;
+    margin-left: -25px;
+    text-align: center;
+    font-size: 500%;
+    font-weight: 500px;
+}
+.text2{
+    margin-top: 30px;
+    padding-left: 35px;
+    font-size: 250%;
+    font-weight: 500px;
+}
+.b1{
+    height: 45px;
+    width: 300px;
+    border: 2px solid rgb(230, 230, 221) ;
+    margin-left: 38px;
+}
+.b2{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(5, 5, 5);
+    padding-left: 28px;
+}
+.text3 img{
+ position: absolute;
+ top: 365px;
+ left: 832px;
+ height: 20px;
+}
+.b3{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(5, 5, 5);
+    padding-left: 30px;
+    
+}
+.text4 img{
+  position: absolute;
+  top: 420px;
+  left: 833px;
+  height: 20px;
+}
+.text5{
+    margin-top: 5px;
+    padding-left: 180px;
+    font-size: 110%;
+    font-weight: 50px;
+}
+.b4{
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: #00abeece;
+    color: white;
+    padding-left: 2px;
+    font-size: 110%;
+    font-weight: 50px;
+    
+}
+.text7{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.text7 p{
+    font-size: 12px;
+    color: gray;
+}
+.text7 span{
+    color: #00abeece;
+    font-size: 12px;
+}
+
+.text8{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 120%;
+    font-weight: 50px;
+}
+.b5{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: #00abeece;
+    padding-left: 2px;
+    font-size: 100%;
+    font-weight: 50px;
+}
+.footer{
+   
+    
+}
+.flex{
+    display: flex;
+    list-style: none;
+}
+.flex li{
+    margin-top: 20px;
+    margin-left: 3px;
+    padding-left: 10px;
+}
+.flex a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.flex2{
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.flex2 li{
+    margin-top: 10px;
+    
+    padding-left: 10px;
+}
+.flex2 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    
+}
